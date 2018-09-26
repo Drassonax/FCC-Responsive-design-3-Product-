@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header id="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsljo-suKezHmQnOwo_EYrWEP0fS96llgdAn5auxOtjPBQtNPmng" alt="logo" id="header-img">
+        <nav id="nav-bar">
+            <ul id="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#customer-reviews" class="nav-link">Customer reviews</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Premium Cat Food</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        <div id="about">
+            <h2>About Premium Cat Food</h2>
+            <ul id="about-list">
+                <li>Made from top quality meat</li>
+                <li>Made with care</li>
+                <li>4 available flavours</li>
+                <li>Cats love it</li>
+            </ul>
+            <iframe src="https://www.youtube.com/embed/agi4geKb8v8" id="video" height="315"></iframe>
+        </div>
+        <div id="customer-reviews">
+            <h2>Customer reviews</h2>
+            <ul id="reviews-list">
+                <li>"My cats love it!"</li> <br>
+                - Jessica the Cat Lady<br> <hr>
+                <li>"It's delicious!"</li> <br>
+                - Johnny the Homeless Guy <br> <hr>
+                <li>"meow meow meow meow meow meow meow meow meow meow!"</li> <br>
+                - Luna
+            </ul>
+        </div>
+        <div id="pricing">
+            <h2>Pricing</h2>
+            <div id="products">
+                <div id="lamb" class="product">
+                    <h3>Lamb</h3>
+                    20$/kg <br>
+                    <button class="select">Select</button>
+                </div>
+                <div id="kangaroo" class="product">
+                    <h3>Kangaroo</h3>
+                    35$/kg <br>
+                    <button class="select">Select</button>
+                </div>
+                <div id="peacock" class="product">
+                    <h3>Peacock</h3>
+                    65$/kg <br>
+                    <button class="select">Select</button>
+                </div>
+                <div id="tuna" class="product">
+                   <h3>Tuna</h3> 
+                    25$/kg <br>
+                    <button class="select">Select</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
